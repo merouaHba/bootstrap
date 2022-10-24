@@ -1,0 +1,141 @@
+@media (max-width: 991px) {
+    .text-content {
+        width: 100%;
+    }
+
+    .navbar {
+        text-align: center;
+        background-color: var(--white-color);
+    }
+
+    .navbar .navbar-brand img {
+        height: 3.8125rem;
+    }
+
+    .navbar.nav-link {
+        line-height: 1.875rem;
+    }
+
+    .top-banner {
+        padding: 9.375rem 0 9.375rem;
+    }
+
+    .testimonial-section .carousel-item .carousel-caption p {
+        padding: 0;
+    }
+
+    /* about */
+    .about .container {
+        flex-direction: column;
+        gap: 30px 0;
+    }
+
+    .about .text,
+    .about .image {
+        width: 100%;
+    }
+
+
+
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2.0625rem;
+    }
+
+    .top-banner {
+        padding: 10.875rem 0 9.375rem;
+    }
+
+    .story-section {
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    .testimonial-section .carousel-item {
+        padding: 11rem 3.125rem;
+    }
+
+    .newsletter {
+        width: 100%;
+    }
+
+    .newsletter .main-btn {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .footer .footer-link,
+    .footer a i {
+        padding: 0 0.7rem;
+    }
+
+    /* banner */
+    .top-banner {
+        background: none;
+    }
+
+    /*------------ counter design ---------------*/
+    .counter-section .container {
+        flex-wrap: wrap;
+        gap: 10px 0;
+        text-align: center;
+    }
+
+    .counter-section .container .w-25 {
+        width: 50% !important;
+    }
+    /* Explore Food */
+    .courses .container .cards-container {
+        flex-direction: column;
+    }
+
+    .courses .container .cards-container .card {
+        width: 100%;
+    }
+/*------------- Story ------------------*/
+.story {
+    height: 35rem;
+}
+    /* FAQ */
+    .faq .container .text {
+        gap: 20px 0;
+    }
+
+    .faq .container .text {
+        width: 100%;
+    }
+
+    /* Book Food */
+    .book-food .container {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px 0;
+    }
+
+    /* newsletter */
+    form.newsletter {
+        flex-direction: column;
+    }
+
+    form.newsletter .form-control {
+        width: 100%;
+        margin-right: 0%;
+    }
+    form.newsletter .main-btn {
+        width: 40%;
+    }
+}
+
+@media (max-width: 330px) {
+    .testimonial-section .carousel-item {
+        padding: 13rem 3.125rem;
+    }
+
+}
